@@ -1,7 +1,7 @@
 --- 
 - name: Auditing RHEL 9.2 CIS
   hosts: localhost
-  gather_fact: false
+  gather_facts: false
   tasks:
   - name: "Run shell audit/1.1.1.1.sh script"
     ansible.builtin.shell:
