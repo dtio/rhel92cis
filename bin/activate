@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/opt/ft"
+VIRTUAL_ENV="/opt/rhel92cis"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
